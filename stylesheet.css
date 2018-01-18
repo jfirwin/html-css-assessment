@@ -1,0 +1,68 @@
+/***************************/
+/**** GENERAL CSS RULES ****/
+/***************************/
+body {
+  background-image: url('img/main-bg.jpeg');
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+h3 {
+  margin-top: 0px;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+a {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+/**************************/
+/** CLASS SPECIFIC RULES **/
+/**************************/
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw
+}
+.down-icon {
+  position:fixed;
+  bottom:10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/***************************/
+/****** MEDIA QUERIES ******/
+/***************************/
+
+@media screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) {
+  .mobile {
+    display: none;
+  }
+}
